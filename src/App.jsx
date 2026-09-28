@@ -37,9 +37,9 @@ const HOTEL = {
   name: 'Himalyan View Kufri',
   shortName: 'Himalyan View',
   tagline: 'Kufri · Shimla · Himachal Pradesh',
-  // TODO: replace with the real contact details
-  phone: '+91 00000 00000',
-  whatsapp: '910000000000', // digits only, with country code — used for wa.me links
+  // TODO: confirm email and address
+  phone: '+91 99154 94146',
+  whatsapp: '919915494146', // digits only, with country code — used for wa.me links
   email: 'stay@himalyanviewkufri.com',
   address: 'Himalyan View Kufri, Kufri, Shimla, Himachal Pradesh 171012, India',
   mapQuery: 'Kufri, Himachal Pradesh',
@@ -152,13 +152,13 @@ const NAV_LINKS = [
   { href: '#contact', label: 'Contact' },
 ]
 
-// Prices are indicative placeholders — update to your live tariff.
+// Starting nightly rates (₹), before taxes.
 const ROOMS = [
   {
     id: 'deluxe-valley-view',
     name: 'Deluxe Valley View Room',
     badge: 'Most Booked',
-    price: 4500,
+    price: 6000,
     guests: 'Up to 3 guests',
     bed: 'King bed',
     image: { ...IMAGES['[IMAGE_PLACEHOLDER_3_DELUXE_ROOM]'], slot: '[IMAGE_PLACEHOLDER_3_DELUXE_ROOM]' },
@@ -170,7 +170,7 @@ const ROOMS = [
   {
     id: 'premium-balcony',
     name: 'Premium Balcony Room',
-    price: 5500,
+    price: 7000,
     guests: 'Up to 3 guests',
     bed: 'King bed',
     image: PHOTOS.valleyRoom,
@@ -183,7 +183,7 @@ const ROOMS = [
     id: 'himalyan-luxury-suite',
     name: 'Himalyan Luxury Suite',
     badge: 'Signature',
-    price: 7500,
+    price: 8000,
     guests: 'Up to 4 guests',
     bed: 'King bed + lounge',
     image: PHOTOS.suite,

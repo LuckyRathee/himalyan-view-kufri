@@ -15,8 +15,8 @@ Deploy `dist/` to any static host (Vercel, Netlify, Cloudflare Pages, S3…).
 
 ## Before going live — edit `src/App.jsx`
 
-1. **`HOTEL` config (top of file):** set the real phone, WhatsApp number (digits only), email, address, social links and check-in/out times.
-2. **Room prices (`ROOMS`):** the ₹ rates are placeholders; replace them with your tariff.
+1. **`HOTEL` config (top of file):** phone and WhatsApp are set; confirm the email, address, social links and check-in/out times.
+2. **Room prices (`ROOMS`):** currently ₹6,000 / ₹7,000 / ₹8,000 per night; update here if the tariff changes.
 3. **Inquiry form:** with `formEndpoint` left empty, the form opens the guest's email app pre-filled. To receive submissions directly, create a free Formspree / Web3Forms endpoint and paste its URL into `HOTEL.formEndpoint`.
 4. **Domain:** replace `https://www.himalyanviewkufri.com/` in `index.html` (canonical, Open Graph and JSON-LD tags) with your real domain.
 
